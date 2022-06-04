@@ -1,8 +1,11 @@
 import React from 'react'
+import BannerHead from '../../components/BannerHead'
 
 function FAQPage() {
   return (
-    <div>FAQPage</div>
+    <div>
+      <BannerHead text1={'Frequently Asked'} text2={'Questions'} ></BannerHead>
+    </div>
   )
 }
 
