@@ -5,13 +5,16 @@ import menupedia from "./menupedia";
 function MenuData (){
     function createMenuEntry(term){
         return(
+    <div>
     <MenuEntry 
     key={term.id}
     name={term.name}
     price={term.data}
     data={term.price}
-    URL={term.img}
     />
+    <img src={term.imgUrl} alt="burger"></img>
+    </div>
+    
         );
   }
      return(

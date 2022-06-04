@@ -1,13 +1,13 @@
 import React from "react";
-import BurgerImage from "./burger-images";
 
-function MenuEntry(props){
+
+function MenuEntry(prop){
     return(
         <div>
-           <span> {props.name}</span>
-           <span> {props.data}</span>
-           <span> {props.price}</span>
-           <BurgerImage />
+           <span> {prop.name}</span>
+           <span> {prop.data}</span>
+           <span> {prop.price}</span>
+          <img src={prop.imgUrl} alt="bc"></img>
         </div>
 
     );
