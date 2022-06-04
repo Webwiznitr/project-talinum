@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/talinum/static/css/main.573cb350.css",
+    "main.js": "/talinum/static/js/main.7e0d7d55.js",
+    "index.html": "/talinum/index.html",
+    "main.573cb350.css.map": "/talinum/static/css/main.573cb350.css.map",
+    "main.7e0d7d55.js.map": "/talinum/static/js/main.7e0d7d55.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.573cb350.css",
+    "static/js/main.7e0d7d55.js"
+  ]
+}
