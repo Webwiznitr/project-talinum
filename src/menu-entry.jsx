@@ -1,4 +1,5 @@
 import React from "react";
+import BurgerImage from "./burger-images";
 
 function MenuEntry(props){
     return(
@@ -6,7 +7,7 @@ function MenuEntry(props){
            <span> {props.name}</span>
            <span> {props.data}</span>
            <span> {props.price}</span>
-           <span> {props.img}</span>
+           <BurgerImage />
         </div>
 
     );
