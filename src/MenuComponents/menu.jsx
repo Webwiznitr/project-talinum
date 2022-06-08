@@ -4,7 +4,7 @@ import MenuData from "./menu-data";
 
 function Menu(){
     return(
-        <div>
+        <div  className="mx-[10]  max-w-[500]">
             <MenuHeader />
             <MenuData />
         </div>
