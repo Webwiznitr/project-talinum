@@ -1,0 +1,60 @@
+.hamburger{
+    display: none;
+    height: 40px;
+    width: 40px;
+    padding: 0.5rem;
+    cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+.nav-menu{
+   position: relative;
+   margin-right: 14px;
+   float: right;
+}
+#Banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: contain;
+    padding: 6px;
+    background-color: #35b8be;
+    height: 3rem;
+    background-image: url('https://assets.website-files.com/5e865e09d8efa3310676b585/5e865e09d8efa36d5976b5d3_Banner%20Wave.svg');
+}
+@media screen and (max-width: 700px){
+    .hamburger{
+        display: inline;
+        transition: all 0.5s linear;
+    }
+    nav{
+       display: none;
+   }
+   nav.expanded{
+       display: block;
+   }
+   .w-nav-menu{
+    display: block;
+    position: absolute;
+    top:130px;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: calc(100vh - 77px);
+    background-color: white;
+    /* border-top: 1px solid black; */
+    color:#35b8be;
+    text-align: left;
+    transition: all 0.5s linear;
+   }
+   .nav-menu a{
+       margin: 0;
+       text-align: left;
+       transition: all 0.5s linear;
+   }
+}
+@media screen and (max-width: 480px){
+    #Banner{
+        display: none;
+    }
+}
